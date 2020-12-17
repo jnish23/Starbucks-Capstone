@@ -1,0 +1,11 @@
+readable_id,id,difficulty,reward,duration,email,mobile,social,web,bogo,discount,informational
+BOGO - $10 - 7days,ae264e3637204a6fb9bb56bc8210ddfd,10,10,7,1,1,1,0,1,0,0
+BOGO - $10 - 5days,4d5c57ea9a6940dd891ad53e9dbe8da0,10,10,5,1,1,1,1,1,0,0
+INFO - $0 - 4days,3f207df678b143eea3cee63160fa8bed,0,0,4,1,1,0,1,0,0,1
+BOGO - $5 - 7days,9b98b8c7a33c4b65b9aebfe6a799e6d9,5,5,7,1,1,0,1,1,0,0
+DISC - \$20/\$5 - 10days,0b1e1539f2cc45b7b9fa7c272da2e1d7,20,5,10,1,0,0,1,0,1,0
+DISC - $7/$3 - 7days,2298d6c36e964ae4a3e7e9706d1fb8c2,7,3,7,1,1,1,1,0,1,0
+DISC - \$10/\$2 - 10days,fafdcd668e3743c1bb461111dcafc2a4,10,2,10,1,1,1,1,0,1,0
+INFO - $0 - 3days,5a8bc65990b245e5a138643cd4eb9837,0,0,3,1,1,1,0,0,0,1
+BOGO - $5 - 5days,f19421c1d4aa40978ebb69ca19b0e20d,5,5,5,1,1,1,1,1,0,0
+DISC - \$10/\$2 - 7days,2906b810c7d4411798c6938adc9daaa5,10,2,7,1,1,0,1,0,1,0
