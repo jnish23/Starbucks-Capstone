@@ -52,7 +52,12 @@ Here is an explanation of each variable in the files:
 - clean_profile.csv: profile dataset after cleaning
 - clean_transcript.csv: transcript dataset after cleaning
 - merged_data.csv: The top three datasets merged by person and offer_id
-- master_df.csv: data 
+- master_df.csv: Data for each received offer and the amount spent from when the offer was viewed and when it ended
 - xgb_model.sav: pickled model 
 
 
+## Results
+The model that performed best was XGBRegressor. It achieved a root mean squared error of $49.84, and a mean absolute error of $21.21.
+
+The function which_coupon takes in customer demographic data, as well as how many days they have been a member and how many offers they have previously viewed, and produces a graph of the customers predicted spending. It returns a dataframe with the same information.
+This can be used to select the best coupon for each customer. 
