@@ -2,6 +2,13 @@
 
 For a more detailed writeup, please my blog post at https://medium.com/@jordan.nish/starbucks-promotion-strategy-308fdf31c36f
 
+## Install
+This project was made in Python 3 and requires the following libraries:
+- Pandas
+- Numpy
+- Matplolib
+- Scikit-learn
+
 ## Introduction
 This data set contains simulated data that mimics customer behavior on the Starbucks rewards mobile app. 
 Once every few days, Starbucks sends out an offer to users of the mobile app. 
@@ -56,8 +63,12 @@ Here is an explanation of each variable in the files:
 - xgb_model.sav: pickled model 
 
 
+
 ## Results
 The model that performed best was XGBRegressor. It achieved a root mean squared error of $49.84, and a mean absolute error of $21.21.
 
-The function which_coupon takes in customer demographic data, as well as how many days they have been a member and how many offers they have previously viewed, and produces a graph of the customers predicted spending. It returns a dataframe with the same information.
+The function **which_coupon** takes in customer demographic data, as well as how many days they have been a member and how many offers they have previously viewed, and produces a graph of the customers predicted spending. It returns a dataframe with the same information.
 This can be used to select the best coupon for each customer. 
+
+## Licensing and Acknowledgements
+Data was provided by Udacity. 
